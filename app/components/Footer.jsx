@@ -13,7 +13,7 @@ const Footer = () => {
                 <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-4 sm:gap-8">
                     <div className="col-span-2 sm:col-span-2 md:col-span-1 gap-6 sm:gap-8">
                         <Image src={footer} alt="ACM Logo" className="sm:pb-6 md:pb-8 lg:pb-10" />
-                        <p className="text-sm text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error facere atque molestias vero eum voluptates, reprehenderit nostrum fuga quis modi.</p>
+                        {/* <p className="text-sm text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error facere atque molestias vero eum voluptates, reprehenderit nostrum fuga quis modi.</p> */}
                     </div>
                     <div className="justify-center">
                         <h3 className="text-base text-blue-400 uppercase sm:text-lg font-semibold mb-3 sm:mb-4">Membership</h3>
@@ -26,7 +26,7 @@ const Footer = () => {
                     </div>
                     <div className="items-center justify-between">
                         <h3 className="text-base text-blue-400 uppercase sm:text-lg font-semibold mb-3 sm:mb-4">Official Resources</h3>
-                        <ul className="space-y-1 sm:space-y-2 text-sm sm:text-base">
+                        <ul className="space-y-1 sm:space-y-2 text-[10px] sm:text-base">
                             <li><a href="https://learning.acm.org/" className="text-gray-800 hover:text-blue-600">ACM Learning Center</a></li>
                             <li><a href="https://www.acm.org/code-of-ethics" className="text-gray-800 hover:text-blue-600">ACM Code of Ethics</a></li>
                             <li><a href="https://www.acm.org/publications" target="_blank" className="text-gray-800 hover:text-blue-600">ACM Publications</a></li>
