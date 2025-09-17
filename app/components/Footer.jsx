@@ -54,7 +54,7 @@ const Footer = () => {
             </div>
         </footer>
         <div>
-            <p className="text-sm px-8 p-4">Copyright © <span className="text-blue-400"><a href="https://www.rcpit.ac.in/">RCPIT, Shirpur</a></span>. All Rights reserved. <span className="text-xs text-gray-300 items-center">Developed by <a href="https://github.com/Heramb1221">Heramb Chaudhari</a></span></p>
+            <p className="text-sm px-8 p-4">Copyright © <span className="text-blue-400"><a href="https://www.rcpit.ac.in/">RCPIT, Shirpur</a></span>. All Rights reserved.</p>
         </div>
     </div>
   );
