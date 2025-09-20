@@ -17,8 +17,8 @@ export const metadata = {
   title: "ACM Chapter RCPIT Shirpur",
   description: "ACM Chapter RCPIT Shirpur Official Website",
   icons: {
-    icon: "/favicon2.ico",
-    shortcut: "/favicon2.ico",
+    icon: "/assets/ACMO.ico",
+    shortcut: "assets/ACMO.ico",
     apple: "/apple-icon.png",
   },
 };

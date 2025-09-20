@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
-import logo from "@/assets/logo.png";
+import logo from "../../public/assets/ACMOB.png";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -25,8 +25,8 @@ const Navbar = () => {
           <Image
             src={logo}
             alt="ACM RCPIT Logo"
-            width={225}
-            height={200}
+            width={165}
+            height={400}
             priority
             className="object-contain"
           />

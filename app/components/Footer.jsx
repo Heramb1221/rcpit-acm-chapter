@@ -1,18 +1,18 @@
 "use client";
 
 import React from "react";
-import footer from '@/assets/footer.png'
+import footer from '../../public/assets/ACMOB.png'
 import Image from "next/image";
 
 const Footer = () => {
 
   return (
     <div>
-        <footer className="bg-gradient-to-b from-blue-50 via-transparent py-10 sm:py-12 px-4 sm:px-6 lg:px-8">
+        <footer className="bg-gradient-to-b from-blue-300 via-transparent pt-10 sm:pt-14 px-4 sm:px-6 lg:px-8">
             <div className="max-w-9xl mx-auto">
-                <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-4 sm:gap-8">
+                <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-2 sm:gap-6">
                     <div className="col-span-2 sm:col-span-2 md:col-span-1 gap-6 sm:gap-8">
-                        <Image src={footer} alt="ACM Logo" className="sm:pb-6 md:pb-8 lg:pb-10" />
+                        <Image src={footer} height={175} width={200} alt="ACM Logo" className="sm:pb-6 md:pb-8 lg:pb-10" />
                         {/* <p className="text-sm text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error facere atque molestias vero eum voluptates, reprehenderit nostrum fuga quis modi.</p> */}
                     </div>
                     <div className="justify-center">
