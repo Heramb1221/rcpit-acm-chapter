@@ -36,7 +36,7 @@ const FadeIn = ({ children, className = "", delay = 0, ...props }) => {
   );
 };
 
-export default function AboutUsPage() {
+export default function AboutUsPage() { 
   return (
     <main className="min-h-screen w-full text-slate-800 antialiased bg-gradient-to-br from-blue-50 via-indigo-50 to-cyan-50">
       <section className="relative min-h-[80vh] pt-20 pb-16 px-6 bg-gradient-to-br from-slate-600 via-blue-500 to-indigo-500 overflow-hidden">
