@@ -170,13 +170,26 @@ const TeamPage = () => {
 
             <div className="max-w-6xl mx-auto relative z-10 text-center">
               <FadeIn>
-                <div className="mb-8">
+                <div className="mb-6">
+                  <div className="inline-flex items-center px-6 py-3 bg-white/10 backdrop-blur-sm rounded-full border border-white/20 mb-6">
+                <span className="text-cyan-300 font-semibold">Official ACM Student Chapter</span>
+              </div>
                   <h1 className="text-5xl lg:text-7xl font-bold text-white leading-tight mb-6">
                     Our{" "}
                     <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-200">
                       Team
                     </span>
                   </h1>
+                </div>
+
+                <div className="mb-8 text-center">
+                  <h2 className="text-2xl lg:text-3xl font-semibold text-slate-200 mb-6">
+                    Meet Our Team
+                  </h2>
+                  <p className="text-lg text-slate-300 max-w-3xl mx-auto leading-relaxed">
+                    The backbone of the RCPIT ACM Student Chapter — a passionate group of students and faculty leaders 
+                    working together to inspire innovation, share knowledge, and shape the future of computing on campus.
+                  </p>
                 </div>
               </FadeIn>
             </div>
