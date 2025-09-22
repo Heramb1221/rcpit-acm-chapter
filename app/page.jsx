@@ -4,9 +4,9 @@ import { useEffect, useState, useRef } from 'react';
 
 const heroImages = [
   { src: "/assets/inauguration.jpg", caption: "Chapter Inauguration Ceremony" },
-  { src: "/assets/img1.jpg", caption: "Technical Workshop Session" },
-  { src: "/assets/img2.jpg", caption: "Student Innovation Fair" },
-  { src: "/assets/img3.jpg", caption: "ACM Computing Competition" },
+  {src: "/assets/lokeshAnchoring.jpg", caption: ""},
+  {src: "/assets/crowd.jpg", caption: ""},
+  {src: "/assets/prajaktawelcome.jpg", caption: "Value-added course inaugration"},
 ];
 
 function useInView(options = {}) {
