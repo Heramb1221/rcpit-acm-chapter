@@ -11,7 +11,7 @@ const eventsData = {
     {
       id: 1,
       title: "Fundamentals of Red Hat Enterprise Linux",
-      date: "2024-9-1",
+      date: "2025-9-1",
       time: "10:00 AM - 4:00 PM",
       location: "Auditorium Hall, RCPIT",
       category: "Value Added Course",
@@ -40,7 +40,7 @@ const eventsData = {
     {
       id: 2,
       title: "Discrete Structure and Graph Theory",
-      date: "2024-9-3",
+      date: "2025-9-3",
       time: "10:00 AM - 4:00 PM",
       location: "Auditorium Hall, RCPIT",
       category: "Value Added Course",

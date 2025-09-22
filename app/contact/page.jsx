@@ -113,7 +113,7 @@ const ContactPage = () => {
                 For questions or support, feel free to reach out to us anytime.
               </p>
               <p className="text-blue-600 font-semibold">
-                example@gmail.com
+                rcpitspoc@gmail.com
               </p>
             </div>
 

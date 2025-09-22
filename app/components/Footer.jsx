@@ -42,7 +42,7 @@ const Footer = () => {
                                     <div className="h-full min-w-fit flex items-center border-gray-200 border p-4 rounded-lg hover:bg-blue-50" bis_skin_checked="1">
                                     <img alt="mial" className=" w-8 h-8 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4 hidden md:block" src="https://cdn-icons-png.freepik.com/512/3870/3870795.png?ga=GA1.1.737403525.1733342298"/>
                                     <div className="flex-grow" bis_skin_checked="1">
-                                        <a href="mailto:example@gmail.com" className="text-gray-900 title-font font-medium underline text-xs">example@gmail.com</a>
+                                        <a href="mailto:example@gmail.com" className="text-gray-900 title-font font-medium underline text-xs">rcpitspoc@gmail.com</a>
                                         <p className="text-gray-500 text-xs">Team ACM, RCPIT, Shirpur</p>
                                     </div>
                                     </div>
