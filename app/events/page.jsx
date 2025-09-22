@@ -10,82 +10,62 @@ const eventsData = {
   past: [
     {
       id: 1,
-      title: "Introduction to Web Development",
-      date: "2024-11-15",
+      title: "Fundamentals of Red Hat Enterprise Linux",
+      date: "2024-9-1",
       time: "10:00 AM - 4:00 PM",
-      location: "Computer Lab 1, RCPIT",
-      category: "Workshop",
+      location: "Auditorium Hall, RCPIT",
+      category: "Value Added Course",
       type: "workshop",
-      description: "A comprehensive hands-on workshop covering modern web development technologies including React, Next.js, and deployment strategies.",
-      fullDescription: "This intensive workshop provided students with practical experience in modern web development. Participants learned the fundamentals of React, explored Next.js for full-stack applications, and gained hands-on experience with deployment strategies using platforms like Vercel and Netlify. The workshop covered responsive design principles, state management, API integration, and best practices for modern web development.",
-      image: "/assets/img1.jpg",
-      instructor: "Dr. Amit Sharma",
-      participants: 45,
+      description: "An in-depth hands-on workshop focused on mastering the fundamentals of Red Hat Enterprise Linux, system administration, and practical server management skills.",
+      fullDescription: "This value-added course introduces participants to the essentials of Red Hat Enterprise Linux (RHEL). The workshop provides practical exposure to Linux commands, file system navigation, user and group management, permissions, process handling, and shell scripting. Participants will also gain knowledge of system administration tasks such as package management, networking, and security basics in a real-world RHEL environment. By the end of the course, students will have strong foundational skills required for Linux-based systems and industry certifications.",
+      image: "/assets/BtechValueAddedCourse.svg",
+      instructor: "Mr. M. j. Patil, Mr. M. M. Mahajan, Ms. G. B. Patil ",
+      participants: 140,
       highlights: [
-        "Hands-on React development",
-        "Next.js project creation",
-        "Live deployment session",
+        "Linux command-line fundamentals",
+        "User, group, and permission management",
+        "Package management and system updates",
+        "Networking and process handling",
+        "Shell scripting introduction",
         "Q&A with industry expert"
       ],
       outcomes: [
-        "Built a complete web application",
-        "Deployed project to cloud platform",
-        "Learned industry best practices",
+        "Understood fundamentals of Red Hat Enterprise Linux",
+        "Gained system administration skills",
+        "Learned practical troubleshooting techniques",
+        "Prepared for Red Hat certification pathways",
         "Received completion certificate"
       ]
     },
     {
       id: 2,
-      title: "AI & Machine Learning Fundamentals",
-      date: "2024-10-28",
-      time: "2:00 PM - 6:00 PM",
-      location: "Auditorium, RCPIT",
-      category: "Seminar",
-      type: "seminar",
-      description: "An enlightening seminar on artificial intelligence and machine learning concepts with real-world applications and career guidance.",
-      fullDescription: "This seminar brought together leading AI researchers and industry professionals to share insights into the rapidly evolving field of artificial intelligence and machine learning. Attendees gained understanding of core ML concepts, explored real-world applications across industries, and received guidance on career paths in AI. The event featured interactive demonstrations of popular ML frameworks and tools.",
-      image: "/assets/img2.jpg",
-      instructor: "Prof. Priya Patel & Industry Experts",
-      participants: 120,
+      title: "Discrete Structure and Graph Theory",
+      date: "2024-9-3",
+      time: "10:00 AM - 4:00 PM",
+      location: "Auditorium Hall, RCPIT",
+      category: "Value Added Course",
+      type: "workshop",
+      description: "A comprehensive hands-on course designed to strengthen the foundation of discrete structures and graph theory concepts essential for computer science and engineering applications.",
+      fullDescription: "This value-added course is tailored for second-year students to enhance their understanding of discrete structures and graph theory (DSGT). The course covers core topics including sets, relations, functions, propositional and predicate logic, combinatorics, and recurrence relations. It also introduces graph theory concepts such as trees, connectivity, Eulerian and Hamiltonian paths, spanning trees, and graph coloring. Students will work through problem-solving exercises and real-world applications of discrete mathematics in algorithms, computer networks, and data structures. By the end of the course, participants will have a solid foundation in DSGT, preparing them for advanced courses in algorithms, operating systems, and theory of computation.",
+      image: "/assets/BtechValueAddedCourse.svg",
+      instructor: "Dr. P. D. Saraf, Dr. M. M. Saiyyad",
+      participants: 180,
       highlights: [
-        "Industry expert panel discussion",
-        "Live ML model demonstration",
-        "Career guidance session",
-        "Networking opportunities"
+        "Sets, relations, and functions explained",
+        "Propositional and predicate logic practice",
+        "Combinatorics and recurrence relations",
+        "Graph theory fundamentals with problem-solving",
+        "Applications in algorithms and networks",
+        "Interactive Q&A and case studies"
       ],
       outcomes: [
-        "Understanding of AI/ML fundamentals",
-        "Industry insights and trends",
-        "Career pathway clarity",
-        "Professional networking connections"
+        "Built strong foundations in discrete mathematics",
+        "Developed logical and problem-solving skills",
+        "Understood applications of graph theory in CS",
+        "Prepared for advanced computer science courses",
+        "Received completion certificate"
       ]
     },
-    {
-      id: 3,
-      title: "CodeSprint Hackathon 2024",
-      date: "2024-09-20",
-      time: "9:00 AM - 9:00 PM",
-      location: "Innovation Hub, RCPIT",
-      category: "Hackathon",
-      type: "hackathon",
-      description: "24-hour hackathon challenging students to build innovative solutions using cutting-edge technologies and collaborative problem-solving.",
-      fullDescription: "CodeSprint 2024 was an intensive 12-hour hackathon that brought together passionate programmers, designers, and innovators to create solutions for real-world problems. Teams worked on challenges spanning web development, mobile apps, AI/ML applications, and IoT projects. The event fostered creativity, collaboration, and technical excellence while providing mentorship from industry professionals.",
-      image: "/assets/img3.jpg",
-      instructor: "ACM Student Chapter Team",
-      participants: 80,
-      highlights: [
-        "12-hour intensive coding session",
-        "Industry mentor guidance",
-        "Diverse technology challenges",
-        "Prize distribution ceremony"
-      ],
-      outcomes: [
-        "5 innovative project solutions",
-        "Enhanced teamwork skills",
-        "Technical skill development",
-        "Recognition and prizes for winners"
-      ]
-    }
   ]
 };
 
