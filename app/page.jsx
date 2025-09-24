@@ -354,6 +354,80 @@ export default function Homepage() {
         </div>
       </section>
 
+      {/* ABOUT COMPUTER ENGINEERING DEPARTMENT SECTION */}
+      <section className="py-20 px-6 bg-gradient-to-br from-cyan-50 via-blue-50 to-slate-100">
+        <div className="max-w-7xl mx-auto">
+          <FadeIn>
+            <div className="text-center mb-16">
+              <h2 className="text-4xl lg:text-5xl font-bold text-slate-900 mb-6">
+                About{" "}
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-600 to-blue-600">
+                  Computer Engineering
+                </span>{" "}
+                Department
+              </h2>
+              <div className="w-24 h-1 bg-gradient-to-r from-cyan-500 to-blue-500 mx-auto rounded-full"></div>
+            </div>
+          </FadeIn>
+
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <FadeIn delay={200}>
+              <div className="prose prose-lg text-slate-700">
+                <p className="text-xl text-justify leading-relaxed mb-6">
+                  Established in 2001, the Department of Computer Engineering at R. C. Patel Institute of Technology (RCPIT), Shirpur, offers a dynamic and industry-aligned education. The department provides B.Tech, M.E. (since 2010), and Ph.D. programs, fostering innovation, professional growth, and research excellence.
+                </p>
+
+                <p className="text-lg text-justify leading-relaxed mb-6">
+                  With 27 dedicated faculty members (10 Ph.D. holders), modern laboratories, and cutting-edge infrastructure, the department consistently produces graduates who excel globally. The department has a strong record of academic excellence, research contributions (300+ papers, 30+ patents), and a legacy of 2,296+ alumni placed in top IT companies worldwide.
+                </p>
+
+                <p className="text-lg text-justify leading-relaxed mb-8">
+                  The department emphasizes coding culture, innovation, hackathons, higher studies, and student communities like GDSC and ACES. With smart classrooms, ICT-enabled learning, add-on certifications, and strong industry collaborations, the department nurtures students into competent engineers, innovators, and socially responsible professionals.
+                </p>
+
+                <div className="flex flex-col sm:flex-row gap-4">
+                  <a
+                    href="https://www.rcpit.ac.in/department-of-computer-engineering"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-700 hover:to-blue-700 text-white rounded-2xl font-semibold shadow-xl hover:shadow-2xl transform hover:-translate-y-1 transition-all duration-300"
+                  >
+                    Explore Department
+                    <svg
+                      className="ml-2 w-5 h-5"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </FadeIn>
+
+            <FadeIn>
+              <div className="relative">
+                <div className="absolute inset-0 bg-gradient-to-r from-blue-400 to-cyan-400 rounded-3xl -rotate-3 opacity-20"></div>
+                <div className="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-white">
+                  <img
+                    src="/assets/aboutcomputerdepartment.svg"
+                    alt="Computer Engineering Department"
+                    className="w-full h-80 object-cover"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent"></div>
+                </div>
+              </div>
+            </FadeIn>
+          </div>
+        </div>
+      </section>
+
       {/* RECENT EVENTS SECTION */}
       <section className="py-20 px-6 bg-gradient-to-br from-white via-indigo-50 to-blue-50">
         <div className="max-w-7xl mx-auto">

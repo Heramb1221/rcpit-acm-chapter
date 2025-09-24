@@ -19,7 +19,7 @@ const eventsData = {
       description: "An in-depth hands-on workshop focused on mastering the fundamentals of Red Hat Enterprise Linux, system administration, and practical server management skills.",
       fullDescription: "This value-added course introduces participants to the essentials of Red Hat Enterprise Linux (RHEL). The workshop provides practical exposure to Linux commands, file system navigation, user and group management, permissions, process handling, and shell scripting. Participants will also gain knowledge of system administration tasks such as package management, networking, and security basics in a real-world RHEL environment. By the end of the course, students will have strong foundational skills required for Linux-based systems and industry certifications.",
       image: "/assets/BtechValueAddedCourse.svg",
-      instructor: "Mr. M. j. Patil, Mr. M. M. Mahajan, Ms. G. B. Patil ",
+      instructor: "Mr. M. J. Patil, Mr. M. M. Mahajan, Ms. G. B. Patil ",
       participants: 140,
       highlights: [
         "Linux command-line fundamentals",
