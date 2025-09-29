@@ -397,7 +397,7 @@ export default function Homepage() {
                       className="ml-2 w-5 h-5"
                       fill="none"
                       stroke="currentColor"
-                      viewBox="0 0 24 24"
+                      viewBox="0 0 28 28"
                     >
                       <path
                         strokeLinecap="round"
@@ -418,7 +418,7 @@ export default function Homepage() {
                   <img
                     src="/assets/aboutcomputerdepartment.svg"
                     alt="Computer Engineering Department"
-                    className="w-full h-80 object-cover"
+                    className="w-full h-100 object-cover"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent"></div>
                 </div>

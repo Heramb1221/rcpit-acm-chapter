@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import { FaGithub, FaLinkedin, FaInfoCircle } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaInfoCircle, FaChevronDown, FaChevronUp } from "react-icons/fa";
 
 const team = [
   {
@@ -22,7 +22,7 @@ const team = [
     img: "/assets/ojas.jpg",
     github: "https://github.com/Ojasz-borse",
     linkedin: "https://www.linkedin.com/in/ojaswini-borse-409942286/",
-    info: "As the Chairperson of the RCPIT ACM Student Chapter, I am dedicated to fostering a culture of innovation, collaboration, and leadership. Together with my team, I aim to create meaningful opportunities, organize impactful events, and inspire every member to excel in their journey of learning and growth.",
+    info: "As the Chairperson of the RCPIT ACM Student Chapter, I am dedicated to fostering a culture of innovation, collaboration, and leadership. Together with my team, I aim to create meaningful opportunities, organize impactful events, and inspire every member to excel in their journey of learning and growth.",
   },
   {
     name: "Mahajan Prajakta",
@@ -38,7 +38,7 @@ const team = [
     img: "/assets/Gaurav.jpg",
     github: "https://github.com/chaudhariGaurav07",
     linkedin: "https://www.linkedin.com/in/gaurav-chaudhari-b20176227/",
-    info: "As the Secretary of the RCPIT ACM Student Chapter, I am dedicated to fostering collaboration and smooth communication among our members. Our goal is to create a vibrant community where ideas transform into impactful initiatives for learning and growth.",
+    info: "As the Secretary of the RCPIT ACM Student Chapter, I am dedicated to fostering collaboration and smooth communication among our members. Our goal is to create a vibrant community where ideas transform into impactful initiatives for learning and growth.",
   },
   {
     name: "Chaudhari Heramb",
@@ -46,7 +46,7 @@ const team = [
     img: "/assets/heramb.jpg",
     github: "https://github.com/Heramb1221",
     linkedin: "https://www.linkedin.com/in/heramb-chaudhari/",
-    info: "As the Treasurer of the RCPIT ACM Student Chapter, I am committed to ensuring transparent and responsible management of our resources. Together, we strive to support impactful events and opportunities that empower every member to grow and innovate.",
+    info: "As the Treasurer of the RCPIT ACM Student Chapter, I am committed to ensuring transparent and responsible management of our resources. Together, we strive to support impactful events and opportunities that empower every member to grow and innovate.",
   },
   {
     name: "Dhande Sarvesh",
@@ -54,7 +54,7 @@ const team = [
     img: "/assets/sarvesh.jpg",
     github: "https://github.com/sarvesh871",
     linkedin: "https://www.linkedin.com/in/sarvesh-dhande/",
-    info: "As the WebMaster of the RCPIT ACM Student Chapter, I commit to building and maintaining a digital space that reflects our vision and drives our mission forward. I will ensure that our platforms stay functional, accessible, and inspiring. Through clean design, reliable systems, and constant innovation, I will support my team, amplify their efforts, and make every member’s contribution visible to the world.",
+    info: "As the WebMaster of the RCPIT ACM Student Chapter, I commit to building and maintaining a digital space that reflects our vision and drives our mission forward. I will ensure that our platforms stay functional, accessible, and inspiring. Through clean design, reliable systems, and constant innovation, I will support my team, amplify their efforts, and make every member's contribution visible to the world.",
   },
   {
     name: "Chaudhari Lokesh",
@@ -66,6 +66,49 @@ const team = [
   },
 ];
 
+const studentMembers = [
+  { name: "Samriddhi Dinesh Jagtap", img: "/assets/placeholder-avatar.jpg" },
+  { name: "Vaishanavi Pandharinath Mahajan", img: "/assets/placeholder-avatar.jpg" },
+  { name: "Janhavi Satish Patil", img: "/assets/placeholder-avatar.jpg" },
+  { name: "Tanushri Magan Patil", img: "/assets/placeholder-avatar.jpg" },
+  { name: "Tejaswini Gaurishankar Holani", img: "/assets/placeholder-avatar.jpg" },
+  { name: "Manas Anil Patil", img: "/assets/placeholder-avatar.jpg" },
+  { name: "Sakshi Shashikant Bhadane", img: "/assets/placeholder-avatar.jpg" },
+  { name: "Chetan Lahu Suryawanshi", img: "/assets/placeholder-avatar.jpg" },
+  { name: "Monal Pankaj Patil", img: "/assets/placeholder-avatar.jpg" },
+  { name: "Sumit Keshao Wani", img: "/assets/placeholder-avatar.jpg" },
+  { name: "Aditya Balwantrao Sonawane", img: "/assets/placeholder-avatar.jpg" },
+  { name: "Harshali Vikas Lohar", img: "/assets/placeholder-avatar.jpg" },
+  { name: "Pratik Sanjay Patil", img: "/assets/placeholder-avatar.jpg" },
+  { name: "Vinay Shivdas Gangurde", img: "/assets/placeholder-avatar.jpg" },
+  { name: "Raj Anil Kadam", img: "/assets/placeholder-avatar.jpg" },
+  { name: "Gayatri Jaywant Patil", img: "/assets/placeholder-avatar.jpg" },
+  { name: "Jayesh Arvind Patil", img: "/assets/placeholder-avatar.jpg" },
+  { name: "Kalpesh Prashant Patil", img: "/assets/placeholder-avatar.jpg" },
+  { name: "Pratik Rajendra Bhadane", img: "/assets/placeholder-avatar.jpg" },
+  { name: "Harshal Hemraj Chaudhari", img: "/assets/placeholder-avatar.jpg" },
+  { name: "Janhavi Sunil Patil", img: "/assets/placeholder-avatar.jpg" },
+  { name: "Suraj Patil", img: "/assets/placeholder-avatar.jpg" },
+  { name: "Piyush Rajendra Pawar", img: "/assets/placeholder-avatar.jpg" },
+  { name: "Isha Sachin Jadhav", img: "/assets/placeholder-avatar.jpg" },
+  { name: "Sisodiya Aishwarya Prashant", img: "/assets/placeholder-avatar.jpg" },
+  { name: "Chaudhari Yash Nandlal", img: "/assets/placeholder-avatar.jpg" },
+  { name: "Pawan Sanjay Patil", img: "/assets/placeholder-avatar.jpg" },
+  { name: "Om Sanjay Borle", img: "/assets/placeholder-avatar.jpg" },
+  { name: "Purva Hareshwar Sonawane", img: "/assets/placeholder-avatar.jpg" },
+  { name: "Siddhesh Pradip More", img: "/assets/placeholder-avatar.jpg" },
+  { name: "Anuja Sunil Patil", img: "/assets/placeholder-avatar.jpg" },
+  { name: "Patil Jagruti Navnit", img: "/assets/placeholder-avatar.jpg" },
+  { name: "Chetan Vijay Salunke", img: "/assets/placeholder-avatar.jpg" },
+  { name: "Akshada Shrikrishna Mahajan", img: "/assets/placeholder-avatar.jpg" },
+  { name: "Chaudhari Tejas Ishwar", img: "/assets/placeholder-avatar.jpg" },
+  { name: "Prashant Motiram Patil", img: "/assets/placeholder-avatar.jpg" },
+  { name: "Digambar Sanjay Patil", img: "/assets/placeholder-avatar.jpg" },
+  { name: "Abhishek Dilip koli", img: "/assets/placeholder-avatar.jpg" },
+  { name: "Harsh Anil Gujarathi", img: "/assets/placeholder-avatar.jpg" },
+  { name: "Patil Pranav Nimba", img: "/assets/placeholder-avatar.jpg" },
+];
+
 const FadeIn = ({ children, delay = 0 }) => {
   return (
     <div
@@ -74,6 +117,38 @@ const FadeIn = ({ children, delay = 0 }) => {
     >
       {children}
     </div>
+  );
+};
+
+const StudentMemberCard = ({ member }) => {
+  const [imageError, setImageError] = useState(false);
+  
+  return (
+    <FadeIn delay={100}>
+      <div className="bg-white rounded-2xl p-6 shadow-lg border border-gray-200 hover:shadow-xl hover:-translate-y-2 transition-all duration-300 transform group">
+        <div className="flex flex-col items-center">
+          <div className="w-20 h-20 rounded-full overflow-hidden border-2 border-gray-200 mb-4 group-hover:scale-110 transition-transform duration-300">
+            {!imageError ? (
+              <img
+                src={member.img}
+                alt={member.name}
+                className="w-full h-full object-cover"
+                onError={() => setImageError(true)}
+              />
+            ) : (
+              <div className="w-full h-full bg-gradient-to-br from-blue-400 to-purple-500 flex items-center justify-center">
+                <span className="text-white text-xl font-bold">
+                  {member.name.split(' ').map(n => n[0]).join('').substring(0, 2)}
+                </span>
+              </div>
+            )}
+          </div>
+          <h4 className="text-sm font-semibold text-gray-800 text-center leading-tight">
+            {member.name}
+          </h4>
+        </div>
+      </div>
+    </FadeIn>
   );
 };
 
@@ -148,6 +223,15 @@ const TeamCard = ({ member }) => {
 };
 
 const TeamPage = () => {
+  const [showAllMembers, setShowAllMembers] = useState(false);
+  
+  const getDisplayedMembers = () => {
+    if (showAllMembers) {
+      return studentMembers;
+    }
+    return studentMembers.slice(0, 5);
+  };
+
   return (
     <div className="px-2 pb-5 sm:px-6 bg-gradient-to-br from-slate-100 via-blue-100 to-cyan-50 min-h-screen">
       <div className="max-w-20xl mx-auto">
@@ -213,11 +297,11 @@ const TeamPage = () => {
           </div>
         </div>
 
-        <div>
+        <div className="mb-16">
           <FadeIn delay={150}>
             <div className="flex justify-center">
               <h3 className="inline-block mb-6 px-6 py-2 text-2xl font-semibold text-gray-700 bg-white/60 backdrop-blur-md border border-cyan-300 rounded-xl shadow transition-all duration-300 hover:bg-gradient-to-r hover:from-blue-400 hover:to-purple-400 hover:text-white hover:scale-105">
-                Student Members
+                Stake Holders
               </h3>
             </div>
           </FadeIn>
@@ -227,6 +311,40 @@ const TeamPage = () => {
               <TeamCard key={index} member={member} />
             ))}
           </div>
+        </div>
+
+        <div className="mt-16">
+          <FadeIn delay={150}>
+            <div className="flex justify-center">
+              <h3 className="inline-block mb-8 px-6 py-2 text-2xl font-semibold text-gray-700 bg-white/60 backdrop-blur-md border border-cyan-300 rounded-xl shadow transition-all duration-300 hover:bg-gradient-to-r hover:from-blue-400 hover:to-purple-400 hover:text-white hover:scale-105">
+                Student Members
+              </h3>
+            </div>
+          </FadeIn>
+
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
+            {getDisplayedMembers().map((member, index) => (
+              <StudentMemberCard key={index} member={member} />
+            ))}
+          </div>
+
+          {studentMembers.length > 5 && (
+            <div className="flex justify-center mt-8">
+              <button
+                onClick={() => setShowAllMembers(!showAllMembers)}
+                className="group flex items-center gap-3 px-8 py-4 text-gray-700 bg-white/60 backdrop-blur-md border border-cyan-300 rounded-xl shadow transition-all duration-300 hover:bg-gradient-to-r hover:from-blue-400 hover:to-purple-400 hover:text-white font-semibold hover:shadow-xl hover:scale-105 transform"
+              >
+                <span>
+                  {showAllMembers ? 'Show Less' : `View All Members (${studentMembers.length})`}
+                </span>
+                {showAllMembers ? (
+                  <FaChevronUp className="text-lg group-hover:-translate-y-1 transition-transform duration-300" />
+                ) : (
+                  <FaChevronDown className="text-lg group-hover:translate-y-1 transition-transform duration-300" />
+                )}
+              </button>
+            </div>
+          )}
         </div>
       </div>
 
