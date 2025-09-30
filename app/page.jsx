@@ -251,9 +251,9 @@ export default function Homepage() {
                 <div className="relative bg-blue-50 rounded-3xl p-12 shadow-2xl border border-blue-100">
                   <div className="flex items-center justify-center mb-8">
                     <img
-                      src='/assets/ACMO.svg'
+                      src='/assets/logo3.png'
                       alt="ACM Logo"
-                      className="w-32 h-32 rounded-2xl shadow-lg"
+                      className="w-50 h-32 rounded-2xl shadow-lg"
                     />
                   </div>
                   <div className="text-center">
