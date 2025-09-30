@@ -4,7 +4,6 @@ import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
-import logo from "../../assets/logo.png";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -23,7 +22,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto flex items-center justify-between px-6 h-20">
         <Link href="/" className="flex items-center">
           <Image
-  src={logo}
+  src="/assets/logo3.png"
   alt="ACM RCPIT Logo"
   width={120}
   height={120}

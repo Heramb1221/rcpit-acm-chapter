@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useState, useRef } from "react";
-import logo from "../assets/logo.png";
 const heroImages = [
   { src: "/assets/inauguration.jpg", caption: "Chapter Inauguration Ceremony" },
   { src: "/assets/lokeshAnchoring.jpg", caption: "" },
@@ -166,11 +165,11 @@ export default function Homepage() {
             <FadeIn className="space-y-8">
               <div className="flex items-center space-x-4 mb-8">
                 <div className="relative">
-                  <div className="absolute -inset-1 bg-gradient-to-r from-blue-800/10 to-cyan-100/10 rounded-2xl blur opacity-75 -z-10"></div>
+                  <div className="absolute rounded-2xl blur opacity-75 -z-10"></div>
                   <img
-                    src="/assets/footer.png"
+                    src="/assets/logo3.png"
                     alt="ACM Logo"
-                    // className="w-20 h-20 rounded-2xl shadow-lg relative z-10"
+                    className="w-80 h-30 rounded-2xl shadow-lg relative z-10"
                   />
                 </div>
 
@@ -252,7 +251,7 @@ export default function Homepage() {
                 <div className="relative bg-blue-50 rounded-3xl p-12 shadow-2xl border border-blue-100">
                   <div className="flex items-center justify-center mb-8">
                     <img
-                      src={logo}
+                      src='/assets/ACMO.svg'
                       alt="ACM Logo"
                       className="w-32 h-32 rounded-2xl shadow-lg"
                     />
@@ -512,29 +511,61 @@ export default function Homepage() {
           </FadeIn>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {/* Sample Event Card */}
-            {/* <FadeIn className="bg-white rounded-3xl shadow-xl border border-blue-100 overflow-hidden hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300 group">
-              <div className="relative h-48 overflow-hidden">
-                <img src={eventThumb} alt="Web Development Workshop" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
-                <div className="absolute top-4 left-4">
-                  <span className="bg-cyan-500 text-white px-3 py-1 rounded-full text-sm font-semibold">Workshop</span>
-                </div>
+            {/* Recent Event Card */}
+            <FadeIn className="bg-white rounded-3xl shadow-xl border border-blue-100 overflow-hidden hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300 group">
+            <div className="relative h-48 overflow-hidden">
+              <img
+                src="/assets/SecondYearValueAddedCourse.svg"
+                alt="Discrete Structure and Graph Theory Workshop"
+                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
+              <div className="absolute top-4 left-4">
+                <span className="bg-cyan-500 text-white px-3 py-1 rounded-full text-sm font-semibold">
+                  Value Added Course
+                </span>
               </div>
-              <div className="p-6">
-                <h3 className="text-xl font-bold text-slate-900 mb-2">Introduction to Web Development</h3>
-                <p className="text-slate-600 mb-4">Comprehensive hands-on workshop covering React, Next.js, and modern deployment strategies for aspiring web developers.</p>
-                <div className="flex items-center justify-between">
-                  <span className="text-sm text-slate-500">January 2025</span>
-                  <a href="/events" className="text-blue-600 hover:text-blue-700 font-semibold flex items-center">
-                    Learn More
-                    <svg className="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                    </svg>
-                  </a>
-                </div>
+            </div>
+
+            <div className="p-6">
+              <h3 className="text-xl font-bold text-slate-900 mb-2">
+                Discrete Structure and Graph Theory
+              </h3>
+              <p className="text-slate-600 mb-4">
+                A comprehensive hands-on course designed to strengthen the foundation of discrete structures and graph theory concepts essential for computer science and engineering applications.
+              </p>
+
+              <div className="text-sm text-slate-500 space-y-1 mb-4">
+                <p><span className="font-semibold">Date:</span> September 3, 2025</p>
+                <p><span className="font-semibold">Time:</span> 10:00 AM – 4:00 PM</p>
+                <p><span className="font-semibold">Location:</span> Auditorium Hall, RCPIT</p>
               </div>
-            </FadeIn> */}
+
+              <div className="flex items-center justify-between">
+                <span className="text-sm text-slate-500">Instructor: Dr. P. D. Saraf, Dr. M. M. Saiyyad</span>
+                <a
+                  href="/events"
+                  className="text-blue-600 hover:text-blue-700 font-semibold flex items-center"
+                >
+                  Learn More
+                  <svg
+                    className="ml-1 w-4 h-4"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M9 5l7 7-7 7"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </FadeIn>
+
 
             <FadeIn
               delay={200}

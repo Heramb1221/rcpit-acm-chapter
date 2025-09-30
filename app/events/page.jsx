@@ -1,8 +1,6 @@
 "use client"
 
 import { useEffect, useState, useRef } from 'react';
-// import logo from "../../assets/logo.png";
-// Events Data Array - Easy to manage and update
 const eventsData = {
   upcoming: [
     // Add upcoming events here when available
@@ -47,7 +45,7 @@ const eventsData = {
       type: "workshop",
       description: "A comprehensive hands-on course designed to strengthen the foundation of discrete structures and graph theory concepts essential for computer science and engineering applications.",
       fullDescription: "This value-added course is tailored for second-year students to enhance their understanding of discrete structures and graph theory (DSGT). The course covers core topics including sets, relations, functions, propositional and predicate logic, combinatorics, and recurrence relations. It also introduces graph theory concepts such as trees, connectivity, Eulerian and Hamiltonian paths, spanning trees, and graph coloring. Students will work through problem-solving exercises and real-world applications of discrete mathematics in algorithms, computer networks, and data structures. By the end of the course, participants will have a solid foundation in DSGT, preparing them for advanced courses in algorithms, operating systems, and theory of computation.",
-      image: "/assets/BtechValueAddedCourse.svg",
+      image: "/assets/SecondYearValueAddedCourse.svg",
       instructor: "Dr. P. D. Saraf, Dr. M. M. Saiyyad",
       participants: 180,
       highlights: [
@@ -77,7 +75,6 @@ const categories = [
   { id: 'competition', name: 'Competitions', color: 'from-pink-500 to-rose-500' }
 ];
 
-// Custom hooks and components from homepage
 function useInView(options = {}) {
   const ref = useRef(null);
   const [inView, setIsInView] = useState(false);
@@ -120,7 +117,6 @@ const EventModal = ({ event, isOpen, onClose }) => {
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm">
       <div className="relative max-w-4xl max-h-[90vh] overflow-y-auto bg-white rounded-3xl shadow-2xl transform transition-all duration-300 scale-100">
-        {/* Close Button */}
         <button
           onClick={onClose}
           className="absolute top-6 right-6 z-10 w-10 h-10 bg-white/90 hover:bg-white rounded-full shadow-lg flex items-center justify-center transition-all duration-300 hover:scale-110"
@@ -130,7 +126,6 @@ const EventModal = ({ event, isOpen, onClose }) => {
           </svg>
         </button>
 
-        {/* Event Image */}
         <div className="relative h-64 overflow-hidden rounded-t-3xl">
           <img 
             src={event.image} 
@@ -145,15 +140,12 @@ const EventModal = ({ event, isOpen, onClose }) => {
           </div>
         </div>
 
-        {/* Event Content */}
         <div className="p-8">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-            {/* Main Content */}
             <div className="lg:col-span-2">
               <h2 className="text-3xl font-bold text-slate-900 mb-4">{event.title}</h2>
               <p className="text-lg text-slate-700 mb-6 leading-relaxed">{event.fullDescription}</p>
               
-              {/* Highlights */}
               <div className="mb-6">
                 <h3 className="text-xl font-semibold text-slate-900 mb-3">Event Highlights</h3>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
@@ -330,7 +322,6 @@ export default function EventsPage() {
     setSelectedEvent(null);
   };
 
-  // Close modal on escape key press
   useEffect(() => {
     const handleEscape = (e) => {
       if (e.key === 'Escape') {
@@ -366,11 +357,9 @@ export default function EventsPage() {
             <div className="flex items-center justify-center mb-8">
               <div className="relative">
   
-  <div className="absolute -inset-1 bg-gradient-to-r from-blue-700/50 to-cyan-700/50 rounded-2xl blur opacity-75 -z-10"></div>
-
-  <img src="../../assets/logo.png" alt="ACM Logo" />
-
-</div>
+              <div className="absolute -inset-1 bg-gradient-to-r from-blue-600/50 to-cyan-600/50 rounded-2xl blur opacity-75 -z-10"></div>
+              <img src="/assets/logo3.png" alt="ACM Logo" width={400} height={400} />
+            </div>
 
             </div>
 

@@ -1,7 +1,6 @@
 "use client";
 
 import React from "react";
-import footer from '../../assets/logo.png'
 import Image from "next/image";
 
 const Footer = () => {
@@ -13,7 +12,7 @@ const Footer = () => {
                 <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-2 sm:gap-6">
                     <div className="col-span-2 sm:col-span-2 md:col-span-1 gap-6 sm:gap-8">
                         <Image
-                          src={footer}
+                          src="/assets/logo3.png"
                           alt="ACM RCPIT Logo"
                           width={300}
                           height={300}
