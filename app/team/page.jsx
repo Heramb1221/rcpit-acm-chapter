@@ -1,9 +1,27 @@
 "use client";
 
 import React, { useState } from "react";
-import { FaGithub, FaLinkedin, FaInfoCircle, FaChevronDown, FaChevronUp } from "react-icons/fa";
+import {
+  FaGithub,
+  FaLinkedin,
+  FaInfoCircle,
+  FaChevronDown,
+  FaChevronUp,
+} from "react-icons/fa";
 
 const team = [
+  {
+    name: "Prof. Dr. J. B. Patil",
+    role: "Director",
+    img: "/assets/director.jpg",
+    info: "Director of R. C. Patel Institute of Technology.",
+  },
+  {
+    name: "Prof. Dr. P. J. Deore",
+    role: "Deputy Director",
+    img: "/assets/pj.jpg",
+    info: " Deputy Director of R. C. Patel Institute of Technology.",
+  },
   {
     name: "Dr. R. B. Wagh",
     role: "Head of Department",
@@ -68,10 +86,16 @@ const team = [
 
 const studentMembers = [
   { name: "Samriddhi Dinesh Jagtap", img: "/assets/placeholder-avatar.jpg" },
-  { name: "Vaishanavi Pandharinath Mahajan", img: "/assets/placeholder-avatar.jpg" },
+  {
+    name: "Vaishanavi Pandharinath Mahajan",
+    img: "/assets/placeholder-avatar.jpg",
+  },
   { name: "Janhavi Satish Patil", img: "/assets/placeholder-avatar.jpg" },
   { name: "Tanushri Magan Patil", img: "/assets/placeholder-avatar.jpg" },
-  { name: "Tejaswini Gaurishankar Holani", img: "/assets/placeholder-avatar.jpg" },
+  {
+    name: "Tejaswini Gaurishankar Holani",
+    img: "/assets/placeholder-avatar.jpg",
+  },
   { name: "Manas Anil Patil", img: "/assets/placeholder-avatar.jpg" },
   { name: "Sakshi Shashikant Bhadane", img: "/assets/placeholder-avatar.jpg" },
   { name: "Chetan Lahu Suryawanshi", img: "/assets/placeholder-avatar.jpg" },
@@ -91,7 +115,10 @@ const studentMembers = [
   { name: "Suraj Patil", img: "/assets/placeholder-avatar.jpg" },
   { name: "Piyush Rajendra Pawar", img: "/assets/placeholder-avatar.jpg" },
   { name: "Isha Sachin Jadhav", img: "/assets/placeholder-avatar.jpg" },
-  { name: "Sisodiya Aishwarya Prashant", img: "/assets/placeholder-avatar.jpg" },
+  {
+    name: "Sisodiya Aishwarya Prashant",
+    img: "/assets/placeholder-avatar.jpg",
+  },
   { name: "Chaudhari Yash Nandlal", img: "/assets/placeholder-avatar.jpg" },
   { name: "Pawan Sanjay Patil", img: "/assets/placeholder-avatar.jpg" },
   { name: "Om Sanjay Borle", img: "/assets/placeholder-avatar.jpg" },
@@ -100,7 +127,10 @@ const studentMembers = [
   { name: "Anuja Sunil Patil", img: "/assets/placeholder-avatar.jpg" },
   { name: "Patil Jagruti Navnit", img: "/assets/placeholder-avatar.jpg" },
   { name: "Chetan Vijay Salunke", img: "/assets/placeholder-avatar.jpg" },
-  { name: "Akshada Shrikrishna Mahajan", img: "/assets/placeholder-avatar.jpg" },
+  {
+    name: "Akshada Shrikrishna Mahajan",
+    img: "/assets/placeholder-avatar.jpg",
+  },
   { name: "Chaudhari Tejas Ishwar", img: "/assets/placeholder-avatar.jpg" },
   { name: "Prashant Motiram Patil", img: "/assets/placeholder-avatar.jpg" },
   { name: "Digambar Sanjay Patil", img: "/assets/placeholder-avatar.jpg" },
@@ -122,7 +152,7 @@ const FadeIn = ({ children, delay = 0 }) => {
 
 const StudentMemberCard = ({ member }) => {
   const [imageError, setImageError] = useState(false);
-  
+
   return (
     <FadeIn delay={100}>
       <div className="bg-white rounded-2xl p-6 shadow-lg border border-gray-200 hover:shadow-xl hover:-translate-y-2 transition-all duration-300 transform group">
@@ -138,7 +168,11 @@ const StudentMemberCard = ({ member }) => {
             ) : (
               <div className="w-full h-full bg-gradient-to-br from-blue-400 to-purple-500 flex items-center justify-center">
                 <span className="text-white text-xl font-bold">
-                  {member.name.split(' ').map(n => n[0]).join('').substring(0, 2)}
+                  {member.name
+                    .split(" ")
+                    .map((n) => n[0])
+                    .join("")
+                    .substring(0, 2)}
                 </span>
               </div>
             )}
@@ -224,7 +258,7 @@ const TeamCard = ({ member }) => {
 
 const TeamPage = () => {
   const [showAllMembers, setShowAllMembers] = useState(false);
-  
+
   const getDisplayedMembers = () => {
     if (showAllMembers) {
       return studentMembers;
@@ -256,8 +290,10 @@ const TeamPage = () => {
               <FadeIn>
                 <div className="mb-6">
                   <div className="inline-flex items-center px-6 py-3 bg-white/10 backdrop-blur-sm rounded-full border border-white/20 mb-6">
-                <span className="text-cyan-300 font-semibold">Official ACM Student Chapter</span>
-              </div>
+                    <span className="text-cyan-300 font-semibold">
+                      Official ACM Student Chapter
+                    </span>
+                  </div>
                   <h1 className="text-5xl lg:text-7xl font-bold text-white leading-tight mb-6">
                     Our{" "}
                     <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-200">
@@ -271,8 +307,10 @@ const TeamPage = () => {
                     Meet Our Team
                   </h2>
                   <p className="text-lg text-slate-300 max-w-3xl mx-auto leading-relaxed">
-                    The backbone of the RCPIT ACM Student Chapter — a passionate group of students and faculty leaders 
-                    working together to inspire innovation, share knowledge, and shape the future of computing on campus.
+                    The backbone of the RCPIT ACM Student Chapter — a passionate
+                    group of students and faculty leaders working together to
+                    inspire innovation, share knowledge, and shape the future of
+                    computing on campus.
                   </p>
                 </div>
               </FadeIn>
@@ -285,7 +323,7 @@ const TeamPage = () => {
           <FadeIn delay={150}>
             <div className="flex justify-center">
               <h3 className="inline-block px-6 py-2 mb-6 text-2xl font-semibold text-gray-700 bg-white/60 backdrop-blur-md border border-cyan-300 rounded-xl shadow transition-all duration-300 hover:bg-gradient-to-r hover:from-blue-400 hover:to-purple-400 hover:text-white hover:scale-105">
-                Faculty Advisors
+                Our Mentors
               </h3>
             </div>
           </FadeIn>
@@ -300,14 +338,30 @@ const TeamPage = () => {
         <div className="mb-16">
           <FadeIn delay={150}>
             <div className="flex justify-center">
+              <h3 className="inline-block px-6 py-2 mb-6 text-2xl font-semibold text-gray-700 bg-white/60 backdrop-blur-md border border-cyan-300 rounded-xl shadow transition-all duration-300 hover:bg-gradient-to-r hover:from-blue-400 hover:to-purple-400 hover:text-white hover:scale-105">
+                Faculty Advisors
+              </h3>
+            </div>
+          </FadeIn>
+
+          <div className="flex flex-wrap justify-center gap-8">
+            {team.slice(2,4).map((member, index) => (
+              <TeamCard key={index} member={member} />
+            ))}
+          </div>
+        </div>
+
+        <div className="mb-16">
+          <FadeIn delay={150}>
+            <div className="flex justify-center">
               <h3 className="inline-block mb-6 px-6 py-2 text-2xl font-semibold text-gray-700 bg-white/60 backdrop-blur-md border border-cyan-300 rounded-xl shadow transition-all duration-300 hover:bg-gradient-to-r hover:from-blue-400 hover:to-purple-400 hover:text-white hover:scale-105">
                 Stake Holders
               </h3>
             </div>
           </FadeIn>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3  gap-y-8 justify-items-center">
-            {team.slice(2).map((member, index) => (
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-y-8 justify-items-center">
+            {team.slice(4).map((member, index) => (
               <TeamCard key={index} member={member} />
             ))}
           </div>
@@ -335,7 +389,9 @@ const TeamPage = () => {
                 className="group flex items-center gap-3 px-8 py-4 text-gray-700 bg-white/60 backdrop-blur-md border border-cyan-300 rounded-xl shadow transition-all duration-300 hover:bg-gradient-to-r hover:from-blue-400 hover:to-purple-400 hover:text-white font-semibold hover:shadow-xl hover:scale-105 transform"
               >
                 <span>
-                  {showAllMembers ? 'Show Less' : `View All Members (${studentMembers.length})`}
+                  {showAllMembers
+                    ? "Show Less"
+                    : `View All Members (${studentMembers.length})`}
                 </span>
                 {showAllMembers ? (
                   <FaChevronUp className="text-lg group-hover:-translate-y-1 transition-transform duration-300" />

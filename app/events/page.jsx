@@ -1,7 +1,7 @@
 "use client"
 
 import { useEffect, useState, useRef } from 'react';
-
+// import logo from "../../assets/logo.png";
 // Events Data Array - Easy to manage and update
 const eventsData = {
   upcoming: [
@@ -365,13 +365,13 @@ export default function EventsPage() {
           <FadeIn>
             <div className="flex items-center justify-center mb-8">
               <div className="relative">
-                <img
-                  src="/assets/ACMOB.png"
-                  alt="ACM Logo"
-                  className="w-20 h-20 rounded-2xl shadow-lg"
-                />
-                <div className="absolute -inset-1 bg-gradient-to-r from-blue-700/50 to-cyan-700/50 rounded-2xl blur opacity-75"></div>
-              </div>
+  
+  <div className="absolute -inset-1 bg-gradient-to-r from-blue-700/50 to-cyan-700/50 rounded-2xl blur opacity-75 -z-10"></div>
+
+  <img src="../../assets/logo.png" alt="ACM Logo" />
+
+</div>
+
             </div>
 
             <h1 className="text-4xl lg:text-6xl font-bold text-white leading-tight mb-6">

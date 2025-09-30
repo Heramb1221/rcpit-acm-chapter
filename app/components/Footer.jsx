@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import footer from '../../public/assets/ACMOB.png'
+import footer from '../../assets/logo.png'
 import Image from "next/image";
 
 const Footer = () => {
@@ -12,7 +12,14 @@ const Footer = () => {
             <div className="max-w-9xl mx-auto">
                 <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-2 sm:gap-6">
                     <div className="col-span-2 sm:col-span-2 md:col-span-1 gap-6 sm:gap-8">
-                        <Image src={footer} height={175} width={200} alt="ACM Logo" />
+                        <Image
+                          src={footer}
+                          alt="ACM RCPIT Logo"
+                          width={300}
+                          height={300}
+                          priority
+                          className="object-contain h-50 w-auto"
+                        />
                         <div className="flex justify-between gap-4 mt-2 pr-40 pl-6">
                             <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-indigo-600">
                                 <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
