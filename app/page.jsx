@@ -5,10 +5,7 @@ const heroImages = [
   { src: "/assets/inauguration.jpg", caption: "Chapter Inauguration Ceremony" },
   { src: "/assets/lokeshAnchoring.jpg", caption: "" },
   { src: "/assets/crowd.jpg", caption: "" },
-  {
-    src: "/assets/prajaktawelcome.jpg",
-    caption: "Value-added course inaugration",
-  },
+  { src: "/assets/prajaktawelcome.jpg", caption: "Value-added course inaugration", },
 ];
 
 function useInView(options = {}) {

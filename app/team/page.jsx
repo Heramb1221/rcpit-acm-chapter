@@ -19,7 +19,7 @@ const team = [
   {
     name: "Prof. Dr. P. J. Deore",
     role: "Deputy Director",
-    img: "/assets/pj.jpg",
+    img: "/assets/deputydirector.jpg",
     info: " Deputy Director of R. C. Patel Institute of Technology.",
   },
   {
@@ -31,7 +31,7 @@ const team = [
   {
     name: "Dr. M. M. Saiyyad",
     role: "Faculty Sponsor",
-    img: "/assets/Saiyyad.jpg",
+    img: "/assets/Saiyyadsir.jpg",
     info: "Passionate about student development and academic coordination.",
   },
   {
