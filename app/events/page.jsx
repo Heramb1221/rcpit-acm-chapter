@@ -63,6 +63,34 @@ const eventsData = {
         "Prepared for advanced computer science courses",
         "Received completion certificate"
       ]
+    },{
+      id: 3,
+      title: "Glitchverse Club Inauguration & Session on Game Development",
+      date: "2025-10-6",
+      time: "2:00 PM - 4:00 PM",
+      location: "College Auditorium Hall, RCPIT",
+      category: "Expert Session",
+      type: "workshop",
+      description: "Inauguration of the Glitchverse Club followed by a special session on 'Roadmap to Becoming a Game Developer' conducted by industry expert Mr. Rahul Patil.",
+      fullDescription: "On 6th October 2025, the Glitchverse Club was inaugurated in the college auditorium from 2:00 PM to 4:00 PM. The event began with an introduction by the club head, highlighting the club’s vision, goals, and upcoming activities to the faculty members and students. The inauguration ceremony was marked by the ribbon cutting performed by Deputy Director Dr. P. J. Deore Sir. The event was attended by faculty members including Dr. R. B. Wagh (HOD of Computer Engineering Department), Mentor Dr. S. M. Pardeshi, and faculty member Pallavi Agrawal along with others. The club primarily consists of first-year students who registered via a Google form, with a total of 105 attendees. After the inauguration, a special expert session on 'Roadmap to Becoming a Game Developer' was conducted by Mr. Rahul Patil (Engineering Manager at Helpshift - Keywords Studio). He shared his expertise, explained core game development concepts, and engaged the students through interactive discussion. The event concluded successfully, marking a promising start for the Glitchverse Club.",
+      image: "/assets/GlitchverseInauguration.png",
+      instructor: "Mr. Rahul Patil (Engineering Manager, Helpshift - Keywords Studio)",
+      participants: 105,
+      highlights: [
+        "Inauguration of the Glitchverse Club",
+        "Introduction to club’s vision, goals, and future plans",
+        "Ribbon cutting by Deputy Director Dr. P. J. Deore",
+        "Special session: 'Roadmap to Becoming a Game Developer'",
+        "Expert talk by Mr. Rahul Patil from Helpshift - Keywords Studio",
+        "Active participation from first-year students"
+      ],
+      outcomes: [
+        "Official formation and launch of the Glitchverse Club",
+        "Enhanced understanding of game development fundamentals",
+        "Inspired students to explore careers in game development",
+        "Strengthened student-faculty collaboration",
+        "Successful first event fostering innovation and teamwork"
+      ]
     },
   ]
 };
