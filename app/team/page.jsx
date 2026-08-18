@@ -46,9 +46,9 @@ const team = [
     name: "Mahajan Prajakta",
     role: "Vice Chair",
     img: "/assets/Praju.jpg",
-    github: "https://github.com/Prajakta-rcpit",
-    linkedin: "https://www.linkedin.com/in/prajakta-m25/",
-    info: " As the Vice Chairperson of the RCPIT ACM Student Chapter, I am committed to supporting our leadership in fostering a culture of innovation, collaboration, and growth. I work closely with our team to ensure we create meaningful opportunities, organize impactful events, and empower every member to excel in their learning journey. Together, we strive to build a community where ideas flourish and every voice is heard.",
+    github: "https://github.com/",
+    linkedin: "https://www.linkedin.com/in/",
+    info: "As the Vice Chairperson of the RCPIT ACM Student Chapter, I am committed to supporting our leadership in fostering a culture of innovation, collaboration, and growth.",
   },
   {
     name: "Chaudhari Gaurav",

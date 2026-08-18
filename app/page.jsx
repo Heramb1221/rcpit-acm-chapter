@@ -512,34 +512,34 @@ export default function Homepage() {
             <FadeIn className="bg-white rounded-3xl shadow-xl border border-blue-100 overflow-hidden hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300 group">
             <div className="relative h-48 overflow-hidden">
               <img
-                src="/assets/SecondYearValueAddedCourse.svg"
-                alt="Discrete Structure and Graph Theory Workshop"
+                src="/assets/Decode Tech.png"
+                alt="Decode Tech - Use of AI Tools for Research and Innovation in Academics"
                 className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
               <div className="absolute top-4 left-4">
-                <span className="bg-cyan-500 text-white px-3 py-1 rounded-full text-sm font-semibold">
-                  Value Added Course
+                <span className="bg-gradient-to-r from-purple-500 to-indigo-500 text-white px-3 py-1 rounded-full text-sm font-semibold">
+                  Expert Session
                 </span>
               </div>
             </div>
 
             <div className="p-6">
               <h3 className="text-xl font-bold text-slate-900 mb-2">
-                Discrete Structure and Graph Theory
+                Use of AI Tools for Research & Innovation in Academics
               </h3>
               <p className="text-slate-600 mb-4">
-                A comprehensive hands-on course designed to strengthen the foundation of discrete structures and graph theory concepts essential for computer science and engineering applications.
+                An online expert session for SY students focusing on leveraging AI tools for research, academic innovation, real-world projects, and career guidance.
               </p>
 
               <div className="text-sm text-slate-500 space-y-1 mb-4">
-                <p><span className="font-semibold">Date:</span> September 3, 2025</p>
-                <p><span className="font-semibold">Time:</span> 10:00 AM – 4:00 PM</p>
-                <p><span className="font-semibold">Location:</span> Auditorium Hall, RCPIT</p>
+                <p><span className="font-semibold">Date:</span> May 6, 2026</p>
+                <p><span className="font-semibold">Time:</span> 3:30 PM – 4:30 PM</p>
+                <p><span className="font-semibold">Location:</span> Online</p>
               </div>
 
               <div className="flex items-center justify-between">
-                <span className="text-sm text-slate-500">Instructor: Dr. P. D. Saraf, Dr. M. M. Saiyyad</span>
+                <span className="text-sm text-slate-500">Organized by: ACM RCPIT</span>
                 <a
                   href="/events"
                   className="text-blue-600 hover:text-blue-700 font-semibold flex items-center"

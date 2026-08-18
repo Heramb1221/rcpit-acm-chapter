@@ -92,6 +92,60 @@ const eventsData = {
         "Successful first event fostering innovation and teamwork"
       ]
     },
+    {
+      id: 4,
+      title: "ACM Student Chapter Introduction Session",
+      date: "2025-11-12",
+      time: "5:00 PM - 6:00 PM",
+      location: "Department of Computer Engineering, RCPIT",
+      category: "Orientation Session",
+      type: "seminar",
+      description: "An orientation program for First-Year Computer Engineering students introducing the ACM Student Chapter, its global impact, vision, and opportunities.",
+      fullDescription: "The Department of Computer Engineering at RCPIT Shirpur organized the ACM Student Chapter Introduction Session for the First-Year Computer Engineering students. Organized under the esteemed guidance of Prof. Dr. J. B. Patil (Director, RCPIT), Prof. Dr. P. J. Deore (Dy. Director, RCPIT), Prof. Dr. R. B. Wagh (HOD, Computer Engineering), and Prof. Dr. M. M. Saiyyad (Faculty Sponsor, RCPIT ACM Student Chapter), this one-day orientation session provided students with a comprehensive introduction to the Association for Computing Machinery (ACM), its global impact, vision, opportunities, and the role of the ACM Student Chapter at RCPIT. The ACM Student Chapter strives to create a dynamic environment where students can learn, build, collaborate, and grow, preparing themselves for the rapidly evolving world of computer science and engineering.",
+      image: "/assets/Introduction.jpeg",
+      instructor: "Prof. Dr. M. M. Saiyyad (Faculty Sponsor) & ACM Team",
+      participants: 150,
+      highlights: [
+        "Introduced students to ACM’s mission and professional significance",
+        "Provided insights into chapter structure, activities, and upcoming initiatives",
+        "Encouraged participation in technical events, workshops, and coding challenges",
+        "Built awareness about collaboration, leadership, and innovation in computing",
+        "Organized under guidance of Director, Dy. Director, HOD & Faculty Sponsor"
+      ],
+      outcomes: [
+        "Understood ACM’s mission and professional significance",
+        "Explored chapter structure, upcoming activities, and technical events",
+        "Learned opportunities for collaboration, leadership, and coding challenges",
+        "Engaged with RCPIT ACM Student Chapter leadership and faculty"
+      ]
+    },
+    {
+      id: 5,
+      title: "AI Tools for Research and Innovation in Academics",
+      date: "2026-05-06",
+      time: "3:30 PM - 4:30 PM",
+      location: "Online",
+      category: "Expert Session",
+      type: "seminar",
+      description: "An online expert session for SY students focusing on leverage of AI tools for research, academic innovation, and industry skill development.",
+      fullDescription: "The ACM Student Chapter at RCPIT organized an online Expert Lecture Series specially designed for Second Year (SY) Computer, IT, and Allied branch students. This session focused on 'Use of AI Tools for Research and Innovation in Academics', aiming to bridge the gap between academic learning and industry requirements. Students gained insights into trending AI technologies, real-world research applications, career guidance, and interactive Q&A experience with industry experts.",
+      image: "/assets/Decode Tech.png",
+      instructor: "Dr. Shabina Jameer Modi-Sayyed (Associate Professor, Dean Administration in Computer Science, KBPCOE, Satara)  ",
+      participants: 135,
+      highlights: [
+        "Use of AI tools for research & innovation in academics",
+        "Insights from industry experts on trending technologies",
+        "Exposure to real-world projects and skill development",
+        "Career guidance tailored for Second Year (SY) students",
+        "Interactive Q&A session"
+      ],
+      outcomes: [
+        "Understood practical applications of AI tools in academic research",
+        "Gained clarity on industry expectations and technical skill building",
+        "Learned how to apply modern AI workflows in academic projects",
+        "Interacted with experts to resolve queries in real-time"
+      ]
+    }
   ]
 };
 
