@@ -2,6 +2,7 @@
 
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const Footer = () => {
 
@@ -40,8 +41,8 @@ const Footer = () => {
                     <div className="justify-center">
                         <h3 className="text-base text-blue-400 uppercase sm:text-lg font-semibold mb-3 sm:mb-4">Membership</h3>
                         <ul className="space-y-1 sm:space-y-2 text-sm sm:text-base">
-                            <li><a href="/events" className="text-gray-800 hover:text-blue-600">Our Events</a></li>
-                            <li><a href="/team" className="text-gray-800 hover:text-blue-600">Our Team</a></li>
+                            <li><Link href="/events" className="text-gray-800 hover:text-blue-600">Our Events</Link></li>
+                            <li><Link href="/team" className="text-gray-800 hover:text-blue-600">Our Team</Link></li>
                             <li><a href="https://dl.acm.org/" target="_blank" className="text-gray-800 hover:text-blue-600">ACM Digital Library</a></li>
                             <li><a href="https://www.acm.org/membership/membership-benefits" target="_blank" className="text-gray-800 hover:text-blue-600">Membership Benefits</a></li>
                         </ul>

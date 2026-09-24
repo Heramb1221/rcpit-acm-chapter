@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState, useRef } from "react";
+import Link from "next/link";
 const heroImages = [
   { src: "/assets/inauguration.jpg", caption: "Chapter Inauguration Ceremony" },
   { src: "/assets/lokeshAnchoring.jpg", caption: "" },
@@ -201,7 +202,7 @@ export default function Homepage() {
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4">
-                <a
+                <Link
                   href="/contact"
                   className="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-600 hover:to-blue-600 text-white rounded-2xl font-semibold shadow-xl hover:shadow-2xl transform hover:-translate-y-1 transition-all duration-300"
                 >
@@ -219,7 +220,7 @@ export default function Homepage() {
                       d="M17 8l4 4m0 0l-4 4m4-4H3"
                     />
                   </svg>
-                </a>
+                </Link>
                 <a
                   href="#about-acm"
                   className="inline-flex items-center justify-center px-8 py-4 bg-white/10 hover:bg-white/20 text-white rounded-2xl font-medium backdrop-blur-sm border border-white/20 transition-all duration-300"
@@ -540,7 +541,7 @@ export default function Homepage() {
 
               <div className="flex items-center justify-between">
                 <span className="text-sm text-slate-500">Organized by: ACM RCPIT</span>
-                <a
+                <Link
                   href="/events"
                   className="text-blue-600 hover:text-blue-700 font-semibold flex items-center"
                 >
@@ -558,7 +559,7 @@ export default function Homepage() {
                       d="M9 5l7 7-7 7"
                     />
                   </svg>
-                </a>
+                </Link>
               </div>
             </div>
           </FadeIn>
@@ -591,12 +592,12 @@ export default function Homepage() {
                   Stay tuned for upcoming workshops, hackathons, and technical
                   seminars. Follow our social media for updates.
                 </p>
-                <a
+                <Link
                   href="/events"
                   className="text-blue-600 hover:text-blue-700 font-semibold"
                 >
                   View All Events →
-                </a>
+                </Link>
               </div>
             </FadeIn>
           </div>
@@ -719,7 +720,7 @@ export default function Homepage() {
                   </p>
                 </div>
                 <div className="flex flex-col sm:flex-row gap-4">
-                  <a
+                  <Link
                     href="/contact"
                     className="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-600 hover:to-blue-600 text-white rounded-2xl font-semibold shadow-xl hover:shadow-2xl transform hover:-translate-y-1 transition-all duration-300 whitespace-nowrap"
                   >
@@ -737,7 +738,7 @@ export default function Homepage() {
                         d="M17 8l4 4m0 0l-4 4m4-4H3"
                       />
                     </svg>
-                  </a>
+                  </Link>
                   <a
                     href="https://www.acm.org/membership"
                     target="_blank"

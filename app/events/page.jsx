@@ -1,6 +1,7 @@
 "use client"
 
 import { useEffect, useState, useRef } from 'react';
+import Link from 'next/link';
 const eventsData = {
   upcoming: [
     // Add upcoming events here when available
@@ -486,7 +487,7 @@ export default function EventsPage() {
                   Stay tuned for announcements and follow our social media for the latest updates.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                  <a
+                  <Link
                     href="/contact"
                     className="inline-flex items-center justify-center px-6 py-3 bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white rounded-xl font-semibold shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300"
                   >
@@ -495,7 +496,7 @@ export default function EventsPage() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 17h5l-5 5v-5z" />
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 19.5A2.5 2.5 0 0 1 1.5 17V9A2.5 2.5 0 0 1 4 6.5h11A2.5 2.5 0 0 1 17.5 9v8a2.5 2.5 0 0 1-2.5 2.5" />
                     </svg>
-                  </a>
+                  </Link>
                   <a
                     href="#past-events"
                     className="inline-flex items-center justify-center px-6 py-3 bg-white/70 hover:bg-white text-slate-700 rounded-xl font-medium border border-slate-200 hover:border-blue-200 transition-all duration-300"
@@ -658,7 +659,7 @@ export default function EventsPage() {
 
           <FadeIn delay={200}>
             <div className="flex flex-col sm:flex-row gap-6 justify-center">
-              <a
+              <Link
                 href="/contact"
                 className="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-600 hover:to-blue-600 text-white rounded-2xl font-semibold shadow-xl hover:shadow-2xl transform hover:-translate-y-1 transition-all duration-300"
               >
@@ -666,7 +667,7 @@ export default function EventsPage() {
                 <svg className="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                 </svg>
-              </a>
+              </Link>
               <a
                 href="#past-events"
                 className="inline-flex items-center justify-center px-8 py-4 bg-white/20 hover:bg-white/30 text-white rounded-2xl font-medium border border-white/30 transition-all duration-300"
