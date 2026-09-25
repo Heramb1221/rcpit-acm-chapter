@@ -23,7 +23,7 @@ const team = [
   {
     name: "Dr. R. B. Wagh",
     role: "Head of Department",
-    img: "/assets/hod.jpg",
+    img: "/assets/hod.jpeg",
     info: "Expert in Computer Science with 21+ years of teaching experience.",
   },
   {
